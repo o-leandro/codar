@@ -1,0 +1,559 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px;
+}
+
+a {
+    text-decoration: none;
+}
+
+nav ul {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+}
+
+ul li {
+    margin: 15px;
+    list-style: none;
+    cursor: pointer;
+}
+
+#logo {
+    color: #D6000D;
+    font-size: 2.4rem;
+    font-style: italic;
+    font-weight: bold;
+}
+
+#divider_logo {
+    color: #000;
+}
+
+#btn_login {
+    color: #fff;
+    background-color: #D6000D;
+    padding: 5px 25px;
+    border-radius: 10px;
+    transition: .4s;
+}
+
+.container {
+    width: 90vw;
+    height: 70vh;
+}
+
+.img_banner {
+    width: 350px;
+    height: 300px;
+    margin-left: 210px;
+}
+
+.title_banner {
+    font-size: 1rem;
+    margin-top: -200px;
+    margin-left: 680px;
+    position: relative;
+}
+
+.subtitle_banner {
+    position: relative;
+    font-size: 2.5rem;
+    color: #D6000D;
+    margin-left: 680px;
+}
+
+#btn_orcamento {
+    position: absolute;
+    color: #fff;
+    background-color: #D6000D;
+    padding: 10px 40px;
+    border-radius: 10px;
+    margin-left: 680px;
+    margin-top: 10px;
+}
+
+section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.servicos {
+    flex: 2;
+    margin-left: 150px;
+}
+
+.fas  {
+    background-color: #ffffff;
+    border-radius: 10px;
+    color: #ff0000;
+}
+
+.visto {
+    margin-right: 10px;
+}
+
+.img_section {
+    flex: 1;
+    width: 400px;
+    margin-right: 250px;
+    margin-bottom: 20px;
+}
+
+form {
+    height: 40vh;
+    position: inline-block;
+}
+
+.solicitar {
+    position: relative;
+    font-size: 1.3rem;
+    margin-left: 160px;
+}
+
+.tel {
+    padding: 10px 25px;
+    background-color: #ccc;
+    border: none;
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-left: 160px;
+}
+
+button {
+    position: absolute;
+    padding: 10px 25px;
+    color: #fff;
+    background-color: #D6000D;
+    border: none;
+    border-radius: 10px;
+    margin-top: -37px;
+    margin-left: 400px;
+    cursor: pointer;
+}
+
+.depoimentos {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   margin-bottom: 40px;
+   position: relative;
+}
+
+.depoimento_1 {
+    width: 35%;
+    display: inline;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    background-color: #ccc;
+    padding: 10px;
+    height: 160px;
+    margin-left: 50px;
+}
+
+.circle {
+    font-size: 70px;
+    background-color: #D6000D;
+    color: #D6000D;
+    border-radius: 40px;
+    position: absolute;
+    margin-top: 20px;
+}
+
+#fala_1 {
+    position: relative;
+    width: 75%;
+    margin-left: 100px;
+    margin-top: 10px;
+    text-align: justify;
+}
+
+.depoimento_1 #pessoa_1 {
+    font-size: 1.3rem;
+    margin-left: 100px;
+    margin-top: 10px;
+}
+
+#empresa_1 {
+    font-weight: bold;
+    font-size: 0.8rem;
+    margin-left: 100px;
+}
+
+
+.depoimento_2 {
+    width: 35%;
+    height: 160px;
+    display: inline;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    background-color: #ccc;
+    padding: 10px;
+    margin-left: 50px;
+
+}
+
+#fala_2 {
+    position: relative;
+    width: 75%;
+    margin-left: 100px;
+    margin-top: 10px;
+    text-align: justify;
+}
+
+.depoimento_2 #pessoa_2 {
+    font-size: 1.3rem;
+    margin-left: 100px;
+    margin-top: 10px;
+}
+
+#empresa_2 {
+    font-weight: bold;
+    font-size: 0.8rem;
+    margin-left: 100px;
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 25vh;
+    background-color: #000;
+    color: #fff;
+}
+
+.div_codar {
+    margin-left: 20px;
+    width: 20%;
+}
+
+#nome_empresa {
+    font-size: 1.7rem;
+    font-weight: bold;
+    font-style: italic;
+    margin-bottom: 10px;
+}
+
+#descricao {
+    font-size: 0.9rem;
+}
+
+.div_sobre {
+    font-size: 1.1rem;
+    width: 11.5%;
+}
+
+#descricao_sobre {
+    font-size: 0.9rem;
+    margin-top: 10px;
+}
+
+
+#contato {
+    font-weight: bold;
+    font-size: 1.1rem;
+    margin-bottom: 10px;
+}
+
+#endereco {
+    margin-bottom: 7px;
+}
+
+#numero {
+    margin-bottom: 7px;
+}
+
+.div_redes_socias {
+    margin-top: -20px;
+    margin-right: 25px;
+}
+
+#redes_sociais {
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+
+.social {
+    background-color: #000000;
+    border-radius: 10px;
+    color: #ff0000;
+    font-size: 25px;
+    margin: 5px;
+
+}
+
+@media (max-width: 425px) {
+    html, body {
+        max-width: 100%;
+        overflow-x: hidden;
+    }
+    
+    header {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    header #btn_login {
+        display: none;
+    }
+
+     #logo {
+        margin-left: 10px;
+    }
+
+    nav ul {
+        margin-left: 20px;
+    }
+
+    .container {
+        width: 90vw;
+        height: 50vh;
+    }
+
+    .container_img {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      flex-wrap: wrap;
+    }
+
+    .img_banner {
+        position: absolute;
+        width: 230px;
+        height: 180px;
+        margin-left: 10px;
+        margin-top: 90px;
+    }
+
+    .title_banner {
+        font-size: 1rem;
+        position: relative;
+        margin-top: 200px;
+        margin-left: 70px;
+        width: 90%;
+    }
+
+    .subtitle_banner {
+        position: relative;
+        margin-left: 55px;
+        width: 100%;
+        font-size: 1.8rem;
+    }
+
+    #btn_orcamento {
+        margin-top: 10px;
+        margin-left: 80px;
+    }
+
+    .servicos {
+        width: 90%;
+        margin-top: 100px;
+    }
+
+    .section_servicos {
+        display: flex;
+        flex-direction: column-reverse;
+        
+    }
+
+    .img_section {
+        width: 230px;
+        height: 180px;
+        margin-top: 100px;
+        margin-left: 260px;
+    }
+
+    .servicos {
+        margin-top: 10px;
+        margin-left: 130px;
+        margin-bottom: 20px;
+    }
+
+   .solicitar {
+       font-size: 1.2rem;
+       font-weight: bold;
+       margin-left: 55px;
+       margin-bottom: 200px;
+
+   }
+
+   .tel {
+       margin-left: 80px;
+       padding: 10px 45px;
+
+
+   }
+
+   button {
+       position: relative;
+       margin-left: 80px;
+       margin-top: 10px;
+       margin-bottom: 50px;
+       padding: 10px 60px;
+   }
+
+   .depoimentos {
+       display: flex;
+       flex-wrap: wrap;
+       flex-direction: column;
+       align-items: flex-start;
+       justify-content: flex-start;
+   }
+
+   .depoimento_1 {
+    width: 75%;
+    height: 75%;
+    display: inline;
+    margin-top: -60px;
+    margin-left: 50px;
+    margin-bottom: 1px;
+    border-radius: 10px;
+   }
+
+   .circle {
+    font-size: 40px;
+    }
+
+    #fala_1 {
+        width: 80%;
+        margin-left: 50px;
+        margin-top: 10px;
+    }
+
+    .depoimento_1 #pessoa_1 {
+        font-size: 1.3rem;
+        font-weight: bold;
+        margin-left: 50px;
+    }
+    
+    #empresa_1 {
+        font-weight: bold;
+        font-size: 0.9rem;
+        margin-left: 50px;
+    }
+
+    .depoimento_2 {
+        width: 75%;
+        display: inline;
+        margin-top: 10px;
+        margin-left: 50px;
+        margin-bottom: 10px;
+        border-radius: 10px;
+       }
+
+       #fala_2 {
+        width: 80%;
+        margin-left: 50px;
+        margin-top: 10px;
+    }
+
+    .depoimento_2 #pessoa_2 {
+        font-size: 1.3rem;
+        font-weight: bold;
+        margin-left: 50px;
+    }
+
+    #empresa_2 {
+        font-weight: bold;
+        font-size: 0.9rem;
+        margin-left: 50px;
+    }
+    
+    footer {
+        height: 70vh;
+        background-color: #000;
+        color: #fff;
+    }
+
+    .div_codar {
+        margin-left: 130px;
+        margin-top: -280px;
+        width: 50%;
+    }
+
+    #nome_empresa {
+        font-size: 2rem;
+        font-weight: bold;
+        font-style: italic;
+        margin-bottom: 10px;
+        margin-left: 50px;
+    }
+    
+    #descricao {
+        font-size: 1rem;
+        width: 60vw;
+    }
+    
+    .div_sobre {
+        position: absolute;
+        margin-top: -150px;
+        margin-left: 40px;
+        width: 40%;
+    }
+
+    .div_sobre p {
+        font-size: 1.5rem;
+    }
+    
+    #descricao_sobre {
+        font-size: 0.9rem;
+        margin-top: 10px;
+    }
+
+    .div_contato {
+        position: absolute;
+        margin-top: 60px;
+        margin-left: 40px;
+    }
+
+    #contato {
+        font-weight: bold;
+        font-size: 1.1rem;
+        margin-bottom: 10px;
+    }
+    
+    #endereco {
+        font-size: 0.9rem;
+        margin-bottom: 7px;
+    }
+    
+    #numero {
+        font-size: 0.9rem;
+        margin-bottom: 7px;
+    }
+
+    #email {
+        font-size: 0.9rem;
+    }
+
+    .div_redes_socias {
+        position: absolute;
+        margin-top: 240px;
+        margin-left: 40px;
+    }
+    
+    #redes_sociais {
+        font-size: 1.1rem;
+        font-weight: bold;
+    }
+    
+    .social {
+        background-color: #000000;
+        border-radius: 10px;
+        color: #ff0000;
+        font-size: 25px;
+        margin: 5px;
+    }
+}
